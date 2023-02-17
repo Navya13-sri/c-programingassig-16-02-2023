@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int x,y,n=1,i;
+printf("enter base:");
+scanf("%d",&x);
+printf("enter power");
+scanf("%d",&y);
+for(i=1;i<=y;i++)
+{
+  n=n*x;
+}
+printf("result=%d^%d=%d",x,y,n);
+getch();
+}
